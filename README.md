@@ -1,6 +1,6 @@
-# Tables de multiplication
+# Projet Fil Mo Tec
 
-À destination d'étudiants en apprentissage Vue.js
+Je recommande de lancer le projet sur le navigateur Chrome
 
 ## Project setup
 ```
@@ -11,12 +11,3 @@ npm install
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Les instructions du TP  
-
-=> https://sio-melun.github.io/vuejs/

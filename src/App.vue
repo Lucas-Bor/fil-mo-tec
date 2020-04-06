@@ -3,7 +3,7 @@
         <particles-bg type="square" num=10 :bg="true" />
         <nav class="navbar navbar-expand-lg fixed-top row">
             <router-link tag="li" class="col" class-active="active" to="/home"> Home</router-link>
-            <router-link tag="li" class="col" class-active="active" v-if="authenticated" to="/search"> Search</router-link>
+            <router-link tag="li" class="col" class-active="active" to="/search"> Search</router-link>
             <router-link tag="li" class="col" class-active="active" v-if="authenticated" to="/review"> Review</router-link>
             <router-link tag="li" class="col" class-active="active" v-if="authenticated" to="/rating"> Rating</router-link>
             <router-link tag="li" class="col" class-active="active" v-if="authenticated == false" to="/login"> Login</router-link>
