@@ -5,6 +5,7 @@ import SecureComponent from "./views/secure.vue"
 import HomeComponent from "./views/home.vue"
 import SearchComponent from "./views/search.vue"
 import ReviewComponent from "./views/review.vue"
+import RatingComponent from "./views/rating.vue"
 
 Vue.use(VueRouter)
 
@@ -41,6 +42,11 @@ export default new VueRouter({
             path: '/review',
             name: "review",
             component: ReviewComponent
+        },
+        {
+            path: '/rating',
+            name: "rating",
+            component: RatingComponent
         },
     ]
 })

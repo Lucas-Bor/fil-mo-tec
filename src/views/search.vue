@@ -28,7 +28,6 @@ export default {
    getAuthorName(key) {
    axios.get('https://api.themoviedb.org/3/movie/' + key + '?api_key=af89ad743d30d1a6a0ad07e7c49d215b').then(response => { this.result = response.data })
      console.log(this.result)
-     console.log(this.key)
    }
  }
 }

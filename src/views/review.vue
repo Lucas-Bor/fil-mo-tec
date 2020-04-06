@@ -19,7 +19,6 @@ export default {
   return {
    query: '',
    results: '',
-   result: ''
   }
  },
  methods: {
